@@ -1,0 +1,9 @@
+topl o
+topm o
+topr o
+midl x
+midm x
+midr -
+botl -
+botm -
+botr -
