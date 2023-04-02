@@ -2,7 +2,7 @@ sample_dic = {}
 sample_or_manual = input("Do you want to use a) sample mode, or b) Manual mode:\nwrite either a or b\n")
 
 if sample_or_manual.lower() == "a":
-    sample = open('C:\\Users\\SkyN3\\OneDrive\\Documents\\tictactoe samples.txt', "r")
+    sample = open('C:\\Users\\SkyN3\\OneDrive\\Documents\\tictactoe samples.txt', "r") # use the directory where the tictactoe samples.txt file is stored
     for i in range(9): # there are 9 separate lines in the text file; thus range 9.
         lines = sample.readline()
         position, move = lines.split()
