@@ -73,3 +73,8 @@ if check_win(game):
 else:
     print(" -_- DRAW -_- ")
 # print(len(game))
+print()
+for i in range(len(game)):
+    for j in range(len(game)):
+        print(game[i][j], end='|')
+    print("\n-----------")
