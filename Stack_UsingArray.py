@@ -24,9 +24,8 @@ class ArrayStack:
 
     def is_empty(self):
         if self.arr[0] is None:
-            print("Stack is empty")
-        else:
-            print('Stack is filled')
+            return True
+        return False
 
     def prints(self):
         for i in self.arr:
